@@ -62,7 +62,7 @@ L<P5tie>, L<Tie::StdArray>
 
 Elizabeth Mattijsen <liz@wenzperl.nl>
 
-Source can be located at: https://github.com/lizmat/Tie-Array . Comments and
+Source can be located at: https://github.com/lizmat/Tie-StdArray . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
