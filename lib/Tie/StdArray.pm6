@@ -1,6 +1,6 @@
 use v6.c;
 
-class Tie::StdArray:ver<0.0.1> {
+class Tie::StdArray:ver<0.0.2> {
 
     # Note that we *must* have an embedded Array rather than just subclassing
     # from Array, because .STORE on Array has different semantics than the
