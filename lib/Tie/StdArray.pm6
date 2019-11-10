@@ -1,6 +1,6 @@
 use v6.c;
 
-class Tie::StdArray:ver<0.0.4>:auth<cpan:ELIZABETH> {
+class Tie::StdArray:ver<0.0.5>:auth<cpan:ELIZABETH> {
 
     # Note that we *must* have an embedded Array rather than just subclassing
     # from Array, because .STORE on Array has different semantics than the

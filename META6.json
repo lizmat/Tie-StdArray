@@ -4,7 +4,9 @@
     "Elizabeth Mattijsen"
   ],
   "build-depends" : [ ],
-  "depends" : [ ],
+  "depends" : [
+    "P5tie"
+  ],
   "description" : "Implement Perl's Tie::StdArray core module",
   "license" : "Artistic-2.0",
   "name" : "Tie::StdArray",
@@ -18,8 +20,6 @@
     "UTILS",
     "CPAN5"
   ],
-  "test-depends" : [
-    "P5tie"
-  ],
-  "version" : "0.0.4"
+  "test-depends" : [ ],
+  "version" : "0.0.5"
 }
