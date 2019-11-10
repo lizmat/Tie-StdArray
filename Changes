@@ -2,8 +2,11 @@ Revision history for Tie::StdArray
 
 {{$NEXT}}
 
+0.0.4  2019-11-10T20:07:56+01:00
+    - Changed Perl 5 to Perl
+
 0.0.3  2018-04-25T20:40:31+02:00
-    - add authority to the version information
+    - Add authority to the version information
 
 0.0.2  2018-04-11T23:09:55+02:00
     - Follow App:Mi6's default Changes format

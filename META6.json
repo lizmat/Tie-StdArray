@@ -5,7 +5,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "Implement Perl 5's Tie::StdArray core module",
+  "description" : "Implement Perl's Tie::StdArray core module",
   "license" : "Artistic-2.0",
   "name" : "Tie::StdArray",
   "perl" : "6.c",
@@ -21,5 +21,5 @@
   "test-depends" : [
     "P5tie"
   ],
-  "version" : "0.0.3"
+  "version" : "0.0.4"
 }

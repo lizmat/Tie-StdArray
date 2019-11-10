@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/lizmat/Tie-StdArray.svg?branch=master)](https://travis-ci.org/lizmat/Tie-StdArray)
-
 NAME
 ====
 
-Tie::StdArray - Implement Perl 5's Tie::StdArray core module
+Tie::StdArray - Implement Perl's Tie::StdArray core module
 
 SYNOPSIS
 ========
@@ -30,9 +28,9 @@ Source can be located at: https://github.com/lizmat/Tie-StdArray . Comments and 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Re-imagined from Perl 5 as part of the CPAN Butterfly Plan.
+Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
