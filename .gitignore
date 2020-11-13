@@ -7,3 +7,4 @@
 .precomp/
 /releases/
 /Tie-StdArray-*
+/lib/P5tie.pm6

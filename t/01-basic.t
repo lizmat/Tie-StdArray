@@ -1,4 +1,4 @@
-use v6.c;
+use v6.*;
 use Test;
 
 use P5tie;
@@ -34,4 +34,4 @@ is @a.elems, 1, 'do we have the right number of elems';
 is (@a = (1,2,3)), "1 2 3", 'did initialization with list go ok';
 is @a, "1 2 3", 'did @a get initialized ok'
 
-# vim: ft=perl6 expandtab sw=4
+# vim: expandtab shiftwidth=4

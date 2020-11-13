@@ -1,6 +1,6 @@
-use v6.c;
+use v6.*;
 
-class Tie::StdArray:ver<0.0.5>:auth<cpan:ELIZABETH> {
+class Tie::StdArray:ver<0.0.6>:auth<cpan:ELIZABETH> {
 
     # Note that we *must* have an embedded Array rather than just subclassing
     # from Array, because .STORE on Array has different semantics than the
@@ -42,13 +42,16 @@ class Tie::StdArray:ver<0.0.5>:auth<cpan:ELIZABETH> {
 
 =head1 NAME
 
-Tie::StdArray - Implement Perl's Tie::StdArray core module
+Raku port of Perl's Tie::StdArray module
 
 =head1 SYNOPSIS
 
   use Tie::StdArray;
 
 =head1 DESCRIPTION
+
+This module tries to mimic the behaviour of Perl's C<Tie::StdArray> module
+as closely as possible in the Raku Programming Language.
 
 Tie::StdArray is a module intended to be subclassed by classes using the
 </P5tie|tie()> interface.  It uses the standard C<Array> implementation as its
@@ -67,10 +70,12 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2019 Elizabeth Mattijsen
+Copyright 2018-2020 Elizabeth Mattijsen
 
 Re-imagined from Perl as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod
+
+# vim: expandtab shiftwidth=4

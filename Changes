@@ -2,6 +2,12 @@ Revision history for Tie::StdArray
 
 {{$NEXT}}
 
+0.0.6  2020-11-13T12:30:02+01:00
+    - Change name of distribution
+    - Force to highest possible Raku version
+    - Update copyright year
+    - Tighten up dependency on P5tie
+
 0.0.5  2019-11-10T22:49:16+01:00
     - Added P5tie as a dependency to fix Travis testing problems
 
